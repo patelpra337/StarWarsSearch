@@ -12,6 +12,10 @@
 		AB4D81E322A9F820004B30E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4D81E122A9F820004B30E6 /* Main.storyboard */; };
 		AB4D81E522A9F821004B30E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4D81E422A9F821004B30E6 /* Assets.xcassets */; };
 		AB4D81E822A9F821004B30E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4D81E622A9F821004B30E6 /* LaunchScreen.storyboard */; };
+		AB4D81F022A9F9B4004B30E6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D81EF22A9F9B4004B30E6 /* Person.swift */; };
+		AB4D81F222A9FDE9004B30E6 /* StarWarsSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D81F122A9FDE9004B30E6 /* StarWarsSearchTableViewController.swift */; };
+		AB4D81F422A9FEB7004B30E6 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D81F322A9FEB7004B30E6 /* PersonTableViewCell.swift */; };
+		AB4D81F622A9FFB5004B30E6 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D81F522A9FFB5004B30E6 /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AB4D81E422A9F821004B30E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB4D81E722A9F821004B30E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB4D81E922A9F821004B30E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4D81EF22A9F9B4004B30E6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AB4D81F122A9FDE9004B30E6 /* StarWarsSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsSearchTableViewController.swift; sourceTree = "<group>"; };
+		AB4D81F322A9FEB7004B30E6 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		AB4D81F522A9FFB5004B30E6 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				AB4D81E422A9F821004B30E6 /* Assets.xcassets */,
 				AB4D81E622A9F821004B30E6 /* LaunchScreen.storyboard */,
 				AB4D81E922A9F821004B30E6 /* Info.plist */,
+				AB4D81EF22A9F9B4004B30E6 /* Person.swift */,
+				AB4D81F122A9FDE9004B30E6 /* StarWarsSearchTableViewController.swift */,
+				AB4D81F322A9FEB7004B30E6 /* PersonTableViewCell.swift */,
+				AB4D81F522A9FFB5004B30E6 /* PersonController.swift */,
 			);
 			path = StarWarsSearch;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4D81F022A9F9B4004B30E6 /* Person.swift in Sources */,
 				AB4D81E022A9F820004B30E6 /* ViewController.swift in Sources */,
+				AB4D81F222A9FDE9004B30E6 /* StarWarsSearchTableViewController.swift in Sources */,
+				AB4D81F422A9FEB7004B30E6 /* PersonTableViewCell.swift in Sources */,
+				AB4D81F622A9FFB5004B30E6 /* PersonController.swift in Sources */,
 				AB4D81DE22A9F820004B30E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
