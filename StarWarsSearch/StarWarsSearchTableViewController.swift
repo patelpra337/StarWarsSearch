@@ -50,5 +50,4 @@ class StarWarsSearchTableViewController: UITableViewController, UISearchBarDeleg
 
         return cell
     }
-
 }
